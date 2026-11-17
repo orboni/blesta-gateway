@@ -1,0 +1,52 @@
+{
+    "version": "1.0.0",
+    "name": "Orboni.name",
+    "description": "Orboni.description",
+    "authors": [
+        {
+            "name": "Orboni",
+            "url": "https://orboni.com"
+        }
+    ],
+    "currencies": [
+        "USD",
+        "EUR",
+        "GBP",
+        "CHF",
+        "PLN",
+        "CZK",
+        "HUF",
+        "RON",
+        "DKK",
+        "SEK",
+        "NOK",
+        "ISK",
+        "TRY",
+        "JPY",
+        "KRW",
+        "CNY",
+        "HKD",
+        "SGD",
+        "INR",
+        "IDR",
+        "MYR",
+        "PHP",
+        "THB",
+        "ILS",
+        "AUD",
+        "NZD",
+        "CAD",
+        "MXN",
+        "BRL",
+        "ZAR",
+        "UAH",
+        "ARS",
+        "CLP",
+        "AED",
+        "SAR",
+        "TWD",
+        "VND"
+    ],
+    "signup_url": "https://orboni.com/register",
+    "logo": "views/default/images/logo.svg"
+}

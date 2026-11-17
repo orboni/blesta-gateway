@@ -1,0 +1,19 @@
+<div class="mb-3">
+    <?php
+    $this->Form->label($this->_('Orboni.meta.secret_key', true), 'orboni_secret_key', ['class' => 'form-label']);
+    $this->Form->fieldPassword('secret_key', ['id' => 'orboni_secret_key', 'class' => 'form-control', 'value' => ($meta['secret_key'] ?? ''), 'autocomplete' => 'off']);
+    ?>
+    <div class="form-text"><?php $this->_('Orboni.meta.secret_key_note'); ?></div>
+</div>
+<div class="mb-3">
+    <?php
+    $this->Form->label($this->_('Orboni.meta.webhook_secret', true), 'orboni_webhook_secret', ['class' => 'form-label']);
+    $this->Form->fieldPassword('webhook_secret', ['id' => 'orboni_webhook_secret', 'class' => 'form-control', 'value' => ($meta['webhook_secret'] ?? ''), 'autocomplete' => 'off']);
+    ?>
+    <div class="form-text"><?php $this->_('Orboni.meta.webhook_secret_note'); ?></div>
+</div>
+<div class="mb-3">
+    <label class="form-label" for="orboni_webhook_url"><?php $this->_('Orboni.webhook'); ?></label>
+    <input type="text" class="form-control" id="orboni_webhook_url" readonly="readonly" value="<?php echo $this->Html->safe($webhook_url ?? ''); ?>" onclick="this.select();">
+    <div class="form-text"><?php $this->_('Orboni.webhook_note'); ?> <?php $this->_('Orboni.wallets_note'); ?></div>
+</div>

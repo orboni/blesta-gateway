@@ -1,0 +1,4 @@
+<a class="btn btn-primary" id="orboni-pay" href="<?php echo $this->Html->safe($url ?? ''); ?>"><?php $this->_('Orboni.process.pay'); ?></a>
+<?php if (!empty($test)) { ?>
+<p class="small text-muted mt-2"><?php $this->_('Orboni.process.test'); ?></p>
+<?php } ?>
